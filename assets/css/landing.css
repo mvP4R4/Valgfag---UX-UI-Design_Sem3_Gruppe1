@@ -133,7 +133,7 @@
   grid-column: 1/9;
   height: 768px;
   background-color: aqua;
-  background-image: url("/assets/materials/img/radu-florin-ZqGUzchq0rs-unsplash.jpg");
+  background-image: url("../materials/img/radu-florin-ZqGUzchq0rs-unsplash.jpg");
   background-position: center;
   background-size: cover;
 }
