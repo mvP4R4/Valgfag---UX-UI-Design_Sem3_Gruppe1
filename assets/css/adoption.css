@@ -1,0 +1,102 @@
+#hundeadoption,
+#historier {
+  grid-column: 1/9;
+  margin-top: 20px;
+}
+.hero-adoption {
+  height: 585px;
+  background-image: url("../materials/img/hero-edited/unsplash_ISg37AI2A-s.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 243px 0;
+}
+
+.dyre-cont {
+  padding: 5%;
+  row-gap: 25px;
+}
+
+.cards-container {
+  column-gap: 50px;
+}
+.adoption-headline {
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.adoption-headline a {
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.adoption-headline a h4 {
+  color: var(--colour-querternary);
+  position: relative;
+  right: -10px;
+}
+
+.animal-cta {
+  margin-left: auto;
+  column-gap: 13px;
+}
+
+.animal-card {
+  border-radius: 10px;
+  background-color: var(--colour-grayscale-white);
+  height: 524px;
+  width: 341px;
+}
+
+.animal-card img {
+  height: 249px;
+  width: inherit;
+  border-radius: 10px 10px 0 0;
+}
+
+.animal-card-cont {
+  padding: 27px;
+  row-gap: 20px;
+}
+
+.animal-card-cont p span {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: var(--fontsize-small);
+}
+
+.animal-card-cont button {
+  margin-top: auto;
+}
+
+/* Historie */
+#historier {
+  align-items: center;
+  background-image: url(../materials/img/adam-griffith-sWkkIiTJMYc-unsplash.jpg);
+  height: 771px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 55px 140px 55px 140px;
+}
+.historie-container {
+  width: 80%;
+}
+
+.historie-backdrop {
+  width: 382px;
+  height: 495px;
+  background-color: var(--colour-grayscale-white);
+
+  row-gap: 20px;
+  justify-content: center;
+  border-radius: 5px;
+  color: var(--colour-grayscale-black);
+  padding: 20px;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.historie-backdrop-cont {
+  column-gap: 100px;
+}

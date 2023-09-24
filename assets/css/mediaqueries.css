@@ -1,0 +1,298 @@
+/* MAC */
+@media (max-width: 1441px) {
+  /* */
+  .hero-landing {
+    height: 450px;
+  }
+  /* */
+  .bubble-img {
+    width: 450px;
+    height: 450px;
+  }
+  .white-bubble {
+    width: 290px;
+    height: 290px;
+  }
+  .white-bubble-txt p {
+    font-size: var(--fontsize-medium);
+    width: 90%;
+    align-self: center;
+  }
+  /* */
+  .index-h2 {
+    grid-column: 1/5;
+    grid-row: 1;
+  }
+  .index-h3 {
+    font-size: var(--fontsize-heading4);
+  }
+  .index-h2-reversed {
+    grid-column: 4/7;
+    grid-row: 1;
+  }
+  .index-h3-reversed {
+    grid-column: 4/7;
+  }
+  .white-bubble-reversed {
+    grid-column: 3/7;
+  }
+  #ekspert {
+    margin-top: 25px;
+  }
+}
+
+/* SMALL PHONE */
+@media (max-width: 450px) {
+  .wolf-bg,
+  .header-bot,
+  .header-icon-cont,
+  .nav-bg,
+  .landing-chevron {
+    display: none;
+  }
+  #top {
+    height: 96px;
+    background-color: var(--colour-grayscale-white);
+    position: fixed !important;
+    width: 99vw;
+    z-index: 100;
+  }
+  main {
+    width: 99vw;
+  }
+
+  p {
+    font-size: 12px;
+  }
+  .main-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .landing-txt-cont {
+    margin-top: 30px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 15px;
+    width: 250px;
+  }
+  .landing-txt-cont h1 {
+    font-size: var(--fontsize-small);
+    padding: 0;
+  }
+
+  h1 {
+    font-size: var(--fontsize-large);
+  }
+  h2,
+  .header-top h2 {
+    font-size: var(--fontsize-regular);
+  }
+  .header-top p {
+    font-size: var(--fontsize-small);
+  }
+  /*  BURGER MENU*/
+  .burger-menu {
+    display: block;
+  }
+  .nav-dd-caret {
+    filter: invert(0);
+  }
+  /* */
+  .hero-landing,
+  .hero-adoption,
+  .hero-pension {
+    height: 180px;
+    border-radius: 0 0 75px;
+    width: 99vw;
+    background-position-y: 0;
+    background-position: center;
+    background-size: cover;
+  }
+  /* */
+
+  #ekspert {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+
+    height: fit-content;
+  }
+  #adoption,
+  #dyrepension,
+  #traening,
+  #pension,
+  #adopt,
+  #produkter,
+  #hundeadoption,
+  #historier,
+  .card-flex-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: fit-content;
+  }
+
+  /* */
+  .index-txt-cont {
+    width: 70%;
+  }
+  .index-txt-cont p:first-child {
+    padding-bottom: 20px;
+  }
+  .white-bubble {
+    width: 170px;
+    height: 170px;
+    top: -50px;
+    right: 50px;
+  }
+  .white-bubble-txt {
+    width: 165px;
+    row-gap: 10px;
+  }
+  .white-bubble-txt p {
+    font-size: 8px;
+    width: 125px;
+  }
+  .bubble-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+  }
+  .index-h3-reversed {
+    margin: 0;
+  }
+
+  /* */
+  #ekspert {
+    height: max-content;
+  }
+  .ekspert-backdrop {
+    width: 40vw;
+    height: 350px;
+    backdrop-filter: blur(4px);
+    grid-row: 2/4;
+    row-gap: 10%;
+  }
+  .ekspert-back-1 {
+    grid-column: 1;
+  }
+  .ekspert-back-2 {
+    grid-column: 4;
+  }
+  #ekspert h2 {
+    color: var(--colour-grayscale-white);
+    font-size: 12px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: fit-content;
+  }
+
+  #backtotop {
+    width: 99vw;
+  }
+
+  .foot-cont {
+    font-size: 12px;
+    column-gap: 10px;
+  }
+  .chevron-up {
+    width: 45px;
+    margin-bottom: 10px;
+  }
+  /* Pension */
+  #pension div:first-child,
+  #adopt div:first-child {
+    grid-column: 1/5;
+    justify-content: center;
+    align-items: center;
+  }
+  /* List */
+  .list-cont-left {
+    margin: 0;
+  }
+
+  .list-image {
+    display: none;
+  }
+  .list-p {
+    margin-top: 20px;
+    width: 85%;
+  }
+
+  .list-cont-left {
+    margin-right: 6px;
+  }
+
+  .ul-section {
+    row-gap: 6px;
+  }
+  .paw-list-icon {
+    width: 25px;
+  }
+
+  /* */
+
+  .cards-container {
+    overflow-x: scroll;
+  }
+
+  .dyre-cont {
+    padding: 15px;
+    width: 99vw;
+    max-width: 450px;
+  }
+
+  .historie-container {
+    width: 100%;
+  }
+
+  .historie-backdrop-cont {
+    column-gap: 25px;
+  }
+
+  /* */
+  .card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  #dyrehold {
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: max-content;
+    margin-bottom: 20px;
+  }
+
+  .dyrehold-bg {
+    height: 750px;
+  }
+  .dyrehold-bg ul {
+    height: 600px;
+  }
+  .dyrehold-bg button {
+    margin-top: auto;
+  }
+  .produkter-all-cont {
+    column-gap: 20px;
+  }
+  .produkt-cont img {
+    width: 100px;
+    height: 100px;
+  }
+  .produkt-cont h3 {
+    font-size: 15px;
+  }
+  .se-produkt a h4 {
+    font-size: 12px;
+  }
+  #backtotop {
+    display: none;
+  }
+}
